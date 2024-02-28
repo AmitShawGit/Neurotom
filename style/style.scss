@@ -13,7 +13,7 @@ $secondary: #89cff3;
 $thirdColor: #a0e9ff;
 $nav: #cdf5fd;
 $white: #fff;
-$text: #a1a1a1;
+$text: #7d7d7d;
 $heading: #1f1f1f;
 $headingFont: "Arial";
 
@@ -53,8 +53,15 @@ $headingFont: "Arial";
 body {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
+    background-color: #f2f2f2;
 }
-
+.btn-outline-primary{
+    border-color:$primary;
+    color: $primary;
+    &:hover{
+        background-color: $primary;
+    }
+}
 
 /*TopBar*/
 .topbar {
@@ -82,7 +89,7 @@ body {
 
 
         img {
-            width: 50%;
+            width: 65%;
         }
     }
 
@@ -102,7 +109,35 @@ body {
             margin-top: -7px;
         }
 
-    
+
+    }
+}
+
+/*Hero*/
+.hero-section {
+    padding-top: 5%;
+
+    span {
+        font-weight: 500;
+        background: $nav;
+        padding: 5px;
+        border-radius: 9px;
+        color: $primary;
+        padding: 5px 15px;
+    }
+
+    h1 {
+        margin: 15px 0;
+
+        span {
+            background-color: transparent;
+            padding: 0;
+            color: $primary;
+        }
+    }
+
+    p {
+        color: $text
     }
 }
 

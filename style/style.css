@@ -36,6 +36,15 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
+  background-color: #f2f2f2;
+}
+
+.btn-outline-primary {
+  border-color: #00a9ff;
+  color: #00a9ff;
+}
+.btn-outline-primary:hover {
+  background-color: #00a9ff;
 }
 
 /*TopBar*/
@@ -58,7 +67,7 @@ body {
   background-color: #cdf5fd;
 }
 .navbar .navbar-brand img {
-  width: 50%;
+  width: 65%;
 }
 .navbar .navbar-toggler {
   border: 0;
@@ -71,6 +80,30 @@ body {
   padding-left: 7px;
   width: 30px;
   margin-top: -7px;
+}
+
+/*Hero*/
+.hero-section {
+  padding-top: 5%;
+}
+.hero-section span {
+  font-weight: 500;
+  background: #cdf5fd;
+  padding: 5px;
+  border-radius: 9px;
+  color: #00a9ff;
+  padding: 5px 15px;
+}
+.hero-section h1 {
+  margin: 15px 0;
+}
+.hero-section h1 span {
+  background-color: transparent;
+  padding: 0;
+  color: #00a9ff;
+}
+.hero-section p {
+  color: #7d7d7d;
 }
 
 @media (max-width: 768px) {
@@ -86,12 +119,25 @@ body {
   .navbar .nav-item img {
     display: none;
   }
+  .hero-section {
+    padding-top: 10%;
+  }
+  .hero-section img {
+    margin-top: 10%;
+  }
 }
 @media (max-width: 414px) {
   .topbar p {
     font-size: 9px;
   }
+  /*Navbar*/
   .navbar .navbar-brand img {
     width: 30%;
+  }
+  .hero-section {
+    text-align: center;
+  }
+  .hero-section .text-end {
+    text-align: center !important;
   }
 }/*# sourceMappingURL=style.css.map */

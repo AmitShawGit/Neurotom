@@ -1,5 +1,4 @@
-
-@media(max-width:992px){}
+@media(max-width:992px) {}
 
 //Tab Screen
 @media(max-width:768px) {
@@ -8,14 +7,24 @@
 
         .navbar-brand {
             display: contents;
+
             img {
                 width: 23%;
             }
         }
-        .nav-item{
-            img{
+
+        .nav-item {
+            img {
                 display: none;
             }
+        }
+    }
+
+    .hero-section {
+        padding-top: 10%;
+
+        img {
+            margin-top: 10%;
         }
     }
 }
@@ -30,12 +39,20 @@
         }
     }
 
-.navbar{
-    .navbar-brand{
-        img{
-            width: 30%;
+    /*Navbar*/
+    .navbar {
+        .navbar-brand {
+            img {
+                width: 30%;
+            }
+        }
+    }
+
+    //hero
+    .hero-section {
+        text-align: center;
+        .text-end{
+        text-align: center !important;
         }
     }
 }
-}
-
