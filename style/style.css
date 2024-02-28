@@ -35,4 +35,63 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+/*TopBar*/
+.topbar {
+  background-color: #00a9ff;
+  color: #fff;
+  text-align: center;
+}
+.topbar p {
+  margin-bottom: 0;
+  padding: 5px 0;
+}
+.topbar p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*Navbar*/
+.navbar {
+  background-color: #cdf5fd;
+}
+.navbar .navbar-brand img {
+  width: 50%;
+}
+.navbar .navbar-toggler {
+  border: 0;
+}
+.navbar .nav-item .active {
+  color: #00a9ff;
+}
+.navbar .nav-item img {
+  position: absolute;
+  padding-left: 7px;
+  width: 30px;
+  margin-top: -7px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    text-align: center;
+  }
+  .navbar .navbar-brand {
+    display: contents;
+  }
+  .navbar .navbar-brand img {
+    width: 23%;
+  }
+  .navbar .nav-item img {
+    display: none;
+  }
+}
+@media (max-width: 414px) {
+  .topbar p {
+    font-size: 9px;
+  }
+  .navbar .navbar-brand img {
+    width: 30%;
+  }
 }/*# sourceMappingURL=style.css.map */

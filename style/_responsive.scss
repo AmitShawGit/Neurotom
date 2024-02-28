@@ -1,0 +1,41 @@
+
+@media(max-width:992px){}
+
+//Tab Screen
+@media(max-width:768px) {
+    .navbar {
+        text-align: center;
+
+        .navbar-brand {
+            display: contents;
+            img {
+                width: 23%;
+            }
+        }
+        .nav-item{
+            img{
+                display: none;
+            }
+        }
+    }
+}
+
+//Smart Phones
+@media(max-width:414px) {
+
+    //topbar
+    .topbar {
+        p {
+            font-size: 9px;
+        }
+    }
+
+.navbar{
+    .navbar-brand{
+        img{
+            width: 30%;
+        }
+    }
+}
+}
+
