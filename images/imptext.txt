@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Arial";
+    src: url('./ARLRDBD.ttf');
+}
+
+normaltextfont: 15pt
+heading:30pt
+
+Colors
+
+$primary: #00a9ff;
+$secondary: #89cff3;
+$thirdColor: #a0e9ff;
+$nav: #cdf5fd;
+$white: #fff;
+$text: #7d7d7d;
+$heading: #1f1f1f;
+$headingFont: "Arial","Roboto";
+
+
+Topbar
+Sales are going on purchase full bundle of medicine and get 20% off
+
+//slider
+Capsules only $5
+Take Care of 
+Your Mental Health
+
+
+Be you on a good day every day
+
+
+Popular Categories
+
+End of Season Sale
+
+Why Choose Us
+
+Our Customers
+
+Testimonial
+
+FAQs
+Q. If I do not see an improvement in my symptoms, can I stop taking Neuroatom 400mg Tablet?
+No, do not stop taking Neurotam 400mg Tablet on your own. Stopping it suddenly may have unwanted effects like twitching and  jerking movements. If Neurotam 400mg Tablet 
+does not improve your symptoms, consult your doctor. The doctor may suggest a slow reduction of Neurotam 400mg Tablet dose.
