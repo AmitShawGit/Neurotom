@@ -55,10 +55,12 @@ body {
     font-size: 15px;
     background-color: #f2f2f2;
 }
-.btn-outline-primary{
-    border-color:$primary;
+
+.btn-outline-primary {
+    border-color: $primary;
     color: $primary;
-    &:hover{
+
+    &:hover {
         background-color: $primary;
     }
 }
@@ -139,6 +141,12 @@ body {
     p {
         color: $text
     }
+}
+
+
+/*be on good day*/
+.be-on-good-day {
+    margin-top: 5%;
 }
 
 @import './responsive';
